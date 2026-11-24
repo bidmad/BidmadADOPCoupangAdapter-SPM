@@ -15,7 +15,7 @@ let package = Package(
     .library(name: "BidmadADOPCoupangAdapter", targets: ["BidmadADOPCoupangAdapterTarget"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/bidmad/BidmadSDK-SPM.git", .upToNextMinor(from: "7.2.0-dev.5")),
+    .package(url: "https://github.com/bidmad/BidmadSDK-SPM.git", .upToNextMinor(from: "7.2.0-dev.7")),
   ],
   targets: [
     .target(
@@ -27,8 +27,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "BidmadADOPCoupangAdapter",
-      url: "https://github.com/bidmad/BidmadADOPCoupangAdapter-SPM/releases/download/7.2.0-dev.5/BidmadADOPCoupangAdapter.xcframework.zip",
-      checksum: "c804ac4a5381419fc2f999473174a431d6bc99e3947d6ce514142e18c9ca27d1"
+      url: "https://github.com/bidmad/BidmadADOPCoupangAdapter-SPM/releases/download/7.2.0-dev.7/BidmadADOPCoupangAdapter.xcframework.zip",
+      checksum: "5e1f939e630a77a49a77f4d5851d8e5659067df0070cc3a0ed5b4d8ceaf6350e"
     ),
   ]
 )
